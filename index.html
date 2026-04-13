@@ -31,13 +31,21 @@ body {
 
 /* HERO */
 .hero {
-  padding: 10px 15px 20px;
+  padding: 10px 15px 10px;
 }
 
 .hero img {
   width: 100%;
-  max-width: 320px;
-  border-radius: 18px;
+  max-width: 300px;
+  border-radius: 16px;
+}
+
+/* BEST SELLER TAG */
+.best {
+  font-size: 14px;
+  color: #ff6a00;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 /* SECTION */
@@ -55,7 +63,18 @@ body {
 .subtitle {
   font-size: 14px;
   color: #777;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+/* BADGE */
+.badge {
+  display: inline-block;
+  background: #ff6a00;
+  color: white;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 20px;
+  margin-bottom: 8px;
 }
 
 /* BUTTONS */
@@ -77,8 +96,8 @@ body {
   transform: scale(1.05);
 }
 
-.meesho { background: linear-gradient(45deg, #e91e63, #ff5aa5); }
 .amazon { background: linear-gradient(45deg, #ff9900, #ffb347); }
+.meesho { background: linear-gradient(45deg, #e91e63, #ff5aa5); }
 .whatsapp { background: linear-gradient(45deg, #25d366, #48e88b); }
 .instagram { background: linear-gradient(45deg, #833ab4, #fd1d1d); }
 .facebook { background: #1877f2; }
@@ -90,28 +109,28 @@ body {
   margin-top: 10px;
 }
 
-/* GRID */
+/* GRID (FIXED SIZE ISSUE) */
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  padding: 0 10px;
+  gap: 10px;
+  padding: 0 15px;
+  max-width: 400px;
+  margin: auto;
 }
 
 .grid img {
   width: 100%;
+  height: 150px;        /* FIXED HEIGHT */
+  object-fit: cover;    /* CROPS PROPERLY */
   border-radius: 12px;
 }
 
-/* BADGE */
-.badge {
-  display: inline-block;
-  background: #ff6a00;
-  color: white;
-  padding: 6px 12px;
-  font-size: 12px;
-  border-radius: 20px;
-  margin-bottom: 10px;
+/* WHY SECTION */
+.why {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
 }
 
 /* FOOTER */
@@ -133,25 +152,28 @@ body {
 
 <!-- HERO -->
 <div class="hero">
+  <div class="best">⭐ Best Seller – Avengers Set</div>
   <img src="avengers.png">
 </div>
 
 <!-- CTA -->
 <div class="section">
   <div class="badge">Starting ₹99 🎁</div>
-  <div class="title">Shop Cute & Affordable Gifts</div>
-  <div class="subtitle">Perfect for return gifts, kids & special moments</div>
+  <div class="subtitle">Limited stock available 🔥</div>
 
-  <a class="btn meesho" href="https://www.meesho.com/Yooksin?_ms=3.0.1" target="_blank">🛍️ Shop on Meesho</a>
+  <div class="title">Cute & Affordable Gifts for Kids</div>
+  <div class="subtitle">Most products under ₹199 🎉</div>
 
   <a class="btn amazon" href="https://www.amazon.in/l/27943762031?me=A1F0Z3K1ZIAHGU&tag=ShopReferral_ba55c3e5-eefc-471e-a3d4-95697395c7a3&ref=sf_seller_app_share_new_ls_srb" target="_blank">🛒 Shop on Amazon</a>
 
-  <a class="btn whatsapp" href="https://wa.me/c/918126772002" target="_blank">💬 Order on WhatsApp</a>
+  <a class="btn meesho" href="https://www.meesho.com/Yooksin?_ms=3.0.1" target="_blank">🛍️ Shop Lowest Prices on Meesho</a>
+
+  <a class="btn whatsapp" href="https://wa.me/918126772002?text=Hi%20I%20want%20to%20order%20from%20Yooksin" target="_blank">💬 Order on WhatsApp</a>
 
   <div class="trust">
-    ✔ Budget-friendly gifts<br>
-    ✔ Handmade with care<br>
-    ✔ Loved by parents & kids
+    ✔ 1000+ Happy Customers<br>
+    ✔ Budget-Friendly Gifts<br>
+    ✔ Perfect for Return Gifts
   </div>
 </div>
 
@@ -162,6 +184,16 @@ body {
   <div class="grid">
     <img src="ramayana.png">
     <img src="krishna.png">
+  </div>
+</div>
+
+<!-- WHY -->
+<div class="section">
+  <div class="title">Why Yooksin?</div>
+  <div class="why">
+    • Unique handmade designs<br>
+    • Affordable pricing<br>
+    • Perfect gifting options
   </div>
 </div>
 
