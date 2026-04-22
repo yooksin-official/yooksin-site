@@ -1,215 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Yooksin – Style Meets Play</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<style>
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #fff;
-  color: #333;
-  text-align: center;
-}
+  <title>Yooksin | Premium Toys & Return Gifts Starting ₹99</title>
+  <meta name="description" content="Discover premium-looking kids toys and return gifts by Yooksin. Shop newly launched toys, gifting collections, and bestseller picks starting ₹99." />
+  <meta name="theme-color" content="#f7f4ee" />
 
-/* HEADER */
-.header {
-  padding: 25px 15px 10px;
-}
+  <meta property="og:title" content="Yooksin | Premium Toys & Return Gifts Starting ₹99" />
+  <meta property="og:description" content="Premium-looking toys and return gifts for birthdays, gifting, and joyful play. Starting ₹99." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/banners/hero-avengers.png" />
 
-.logo {
-  width: 140px;
-}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Yooksin | Premium Toys & Return Gifts Starting ₹99" />
+  <meta name="twitter:description" content="Premium-looking toys and return gifts for birthdays, gifting, and joyful play." />
+  <meta name="twitter:image" content="images/banners/hero-avengers.png" />
 
-.tagline {
-  font-size: 15px;
-  color: #777;
-  margin-top: 8px;
-}
-
-/* HERO */
-.hero {
-  padding: 10px 15px 10px;
-}
-
-.hero img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 16px;
-}
-
-/* BEST SELLER TAG */
-.best {
-  font-size: 14px;
-  color: #ff6a00;
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-
-/* SECTION */
-.section {
-  padding: 25px 15px;
-}
-
-.title {
-  font-size: 22px;
-  font-weight: bold;
-  color: #ff6a00;
-  margin-bottom: 10px;
-}
-
-.subtitle {
-  font-size: 14px;
-  color: #777;
-  margin-bottom: 10px;
-}
-
-/* BADGE */
-.badge {
-  display: inline-block;
-  background: #ff6a00;
-  color: white;
-  padding: 6px 12px;
-  font-size: 12px;
-  border-radius: 20px;
-  margin-bottom: 8px;
-}
-
-/* BUTTONS */
-.btn {
-  display: block;
-  margin: 10px auto;
-  width: 90%;
-  max-width: 320px;
-  padding: 14px;
-  border-radius: 12px;
-  font-weight: bold;
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  transform: scale(1.05);
-}
-
-.amazon { background: linear-gradient(45deg, #ff9900, #ffb347); }
-.meesho { background: linear-gradient(45deg, #e91e63, #ff5aa5); }
-.whatsapp { background: linear-gradient(45deg, #25d366, #48e88b); }
-.instagram { background: linear-gradient(45deg, #833ab4, #fd1d1d); }
-.facebook { background: #1877f2; }
-
-/* TRUST */
-.trust {
-  font-size: 13px;
-  color: #666;
-  margin-top: 10px;
-}
-
-/* GRID (FIXED SIZE ISSUE) */
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  padding: 0 15px;
-  max-width: 400px;
-  margin: auto;
-}
-
-.grid img {
-  width: 100%;
-  height: 150px;        /* FIXED HEIGHT */
-  object-fit: cover;    /* CROPS PROPERLY */
-  border-radius: 12px;
-}
-
-/* WHY SECTION */
-.why {
-  font-size: 14px;
-  color: #555;
-  line-height: 1.6;
-}
-
-/* FOOTER */
-.footer {
-  padding: 20px;
-  font-size: 12px;
-  color: #aaa;
-}
-</style>
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&f[]=zodiak@400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-<!-- HEADER -->
-<div class="header">
-  <img src="logo.jpg" class="logo">
-  <div class="tagline">Style Meets Play ✨</div>
-</div>
+  <header class="site-header" id="siteHeader">
+    <div class="container nav">
+      <a href="#" class="brand" aria-label="Yooksin home">
+        <div class="brand-logo-wrap">
+          <img src="images/icons/logo.jpg" alt="Yooksin logo" class="brand-logo" width="52" height="52" />
+        </div>
+        <div class="brand-copy">
+          <div class="brand-name">Yooksin</div>
+          <div class="brand-tag">Style meets play ✨</div>
+        </div>
+      </a>
 
-<!-- HERO -->
-<div class="hero">
-  <div class="best">⭐ Best Seller – Avengers Set</div>
-  <img src="avengers.png">
-</div>
+      <div class="nav-actions">
+        <a class="nav-link" href="#new-launches">New Launches</a>
+        <a class="nav-link" href="#collections">Collections</a>
+        <a class="nav-link" href="#shop">Shop</a>
+        <a class="btn btn-primary desktop-only" href="#shop">Shop Now</a>
+      </div>
+    </div>
+  </header>
 
-<!-- CTA -->
-<div class="section">
-  <div class="badge">Starting ₹99 🎁</div>
-  <div class="subtitle">Limited stock available 🔥</div>
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="reveal show">
+          <div class="eyebrow">Starting ₹99 · Return gifts kids actually love</div>
+          <h1>Premium toys for gifting, birthdays, and joyful play.</h1>
+          <p class="hero-lead">
+            Discover affordable toys and return gifts that feel thoughtful, stylish, and exciting to receive.
+          </p>
 
-  <div class="title">Cute & Affordable Gifts for Kids</div>
-  <div class="subtitle">Most products under ₹199 🎉</div>
+          <div class="hero-points">
+            <span>Amazon & Meesho available</span>
+            <span>Perfect for return gifts</span>
+            <span>Budget-friendly picks</span>
+          </div>
 
-  <a class="btn amazon" href="https://www.amazon.in/l/27943762031?me=A1F0Z3K1ZIAHGU&tag=ShopReferral_ba55c3e5-eefc-471e-a3d4-95697395c7a3&ref=sf_seller_app_share_new_ls_srb" target="_blank">🛒 Shop on Amazon</a>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="https://www.amazon.in/l/27943762031?me=A1F0Z3K1ZIAHGU&tag=ShopReferral_ba55c3e5-eefc-471e-a3d4-95697395c7a3&ref=sf_seller_app_share_new_ls_srb" target="_blank" rel="noopener noreferrer">Shop on Amazon</a>
+            <a class="btn btn-soft" href="https://wa.me/918126772002?text=Hi%20I%20want%20to%20order%20from%20Yooksin" target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+          </div>
 
-  <a class="btn meesho" href="https://www.meesho.com/Yooksin?_ms=3.0.1" target="_blank">🛍️ Shop Lowest Prices on Meesho</a>
+          <div class="hero-meta">
+            <span>Gift-worthy picks</span>
+            <span>Easy ordering</span>
+            <span>Made for happy little moments</span>
+          </div>
+        </div>
 
-  <a class="btn whatsapp" href="https://wa.me/918126772002?text=Hi%20I%20want%20to%20order%20from%20Yooksin" target="_blank">💬 Order on WhatsApp</a>
+        <div class="hero-card reveal">
+          <div class="hero-image-wrap">
+            <img src="images/banners/hero-avengers.png" alt="Featured Yooksin toy banner" width="700" height="760" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <div class="trust">
-    ✔ 1000+ Happy Customers<br>
-    ✔ Budget-Friendly Gifts<br>
-    ✔ Perfect for Return Gifts
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div class="trust-item reveal">
+          <strong>Starting ₹99</strong>
+          <span>Affordable picks that still feel special.</span>
+        </div>
+        <div class="trust-item reveal">
+          <strong>Return gift ready</strong>
+          <span>Ideal for birthdays and party favors.</span>
+        </div>
+        <div class="trust-item reveal">
+          <strong>Amazon · Meesho · WhatsApp</strong>
+          <span>Shop the way you prefer.</span>
+        </div>
+        <div class="trust-item reveal">
+          <strong>Handpicked collections</strong>
+          <span>Playful toys with gifting appeal.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="new-launches">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">New drop</span>
+            <h2>Newly launched</h2>
+            <p class="section-subtitle">
+              Fresh arrivals curated for gifting, collecting, and playful joy.
+            </p>
+          </div>
+        </div>
+
+        <div class="cards-3">
+          <article class="product-card reveal">
+            <div class="product-image">
+              <span class="badge">New Launch</span>
+              <img src="images/products/bus-rattle-blue.png" alt="Bus Rattle Blue by Yooksin" width="600" height="600" loading="lazy" />
+            </div>
+            <div class="product-body">
+              <h3 class="product-title">Bus Rattle Blue</h3>
+              <p class="product-desc">A cheerful gifting pick with playful appeal for little ones.</p>
+              <div class="price-row">
+                <div class="price">₹99+</div>
+                <a class="btn btn-soft" href="https://wa.me/918126772002?text=Hi%20I%20am%20interested%20in%20Bus%20Rattle%20Blue" target="_blank" rel="noopener noreferrer">Enquire</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-image">
+              <span class="badge">New Launch</span>
+              <img src="images/products/bus-rattle-black.png" alt="Bus Rattle Black by Yooksin" width="600" height="600" loading="lazy" />
+            </div>
+            <div class="product-body">
+              <h3 class="product-title">Bus Rattle Black</h3>
+              <p class="product-desc">A bold and premium-looking toy designed for memorable gifting.</p>
+              <div class="price-row">
+                <div class="price">₹99+</div>
+                <a class="btn btn-soft" href="https://wa.me/918126772002?text=Hi%20I%20am%20interested%20in%20Bus%20Rattle%20Black" target="_blank" rel="noopener noreferrer">Enquire</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-image">
+              <span class="badge">Just Arrived</span>
+              <img src="images/products/spin-top.png" alt="Spin Top by Yooksin" width="600" height="600" loading="lazy" />
+            </div>
+            <div class="product-body">
+              <h3 class="product-title">Spin Top</h3>
+              <p class="product-desc">A timeless play favorite made even more giftable for kids.</p>
+              <div class="price-row">
+                <div class="price">₹99+</div>
+                <a class="btn btn-soft" href="https://wa.me/918126772002?text=Hi%20I%20am%20interested%20in%20Spin%20Top" target="_blank" rel="noopener noreferrer">Enquire</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="spotlight reveal">
+          <div class="spotlight-media">
+            <img src="images/banners/hero-avengers.png" alt="Yooksin product of the month" width="700" height="700" loading="lazy" />
+          </div>
+
+          <div class="spotlight-copy">
+            <span class="section-kicker">Bestseller spotlight</span>
+            <h3>Product of the Month</h3>
+            <p>
+              One standout favorite that is perfect for gifting, collecting, and delighting kids.
+            </p>
+
+            <div class="benefits">
+              <span>⭐ Loved for gifting and play</span>
+              <span>🎁 Great for birthdays and return gifts</span>
+              <span>🛒 Easy to shop online</span>
+            </div>
+
+            <div class="hero-cta spotlight-cta">
+              <a class="btn btn-primary" href="https://www.amazon.in/l/27943762031?me=A1F0Z3K1ZIAHGU&tag=ShopReferral_ba55c3e5-eefc-471e-a3d4-95697395c7a3&ref=sf_seller_app_share_new_ls_srb" target="_blank" rel="noopener noreferrer">Shop Now</a>
+              <a class="btn btn-soft" href="https://www.meesho.com/Yooksin?_ms=3.0.1" target="_blank" rel="noopener noreferrer">View on Meesho</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="collections">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">Collections</span>
+            <h2>Explore collections</h2>
+            <p class="section-subtitle">
+              Thoughtful picks for gifting, playful display, and joyful moments.
+            </p>
+          </div>
+        </div>
+
+        <div class="cards-2">
+          <article class="collection-card reveal">
+            <div class="collection-image">
+              <img src="images/products/ramayana-set.png" alt="Ramayana Set by Yooksin" width="700" height="700" loading="lazy" />
+            </div>
+            <div class="collection-body">
+              <h3 class="collection-title">Ramayana Set</h3>
+              <p class="collection-desc">A meaningful themed collection for gifting and display.</p>
+            </div>
+          </article>
+
+          <article class="collection-card reveal">
+            <div class="collection-image">
+              <img src="images/products/krishna-set.png" alt="Krishna Set by Yooksin" width="700" height="700" loading="lazy" />
+            </div>
+            <div class="collection-body">
+              <h3 class="collection-title">Krishna Set</h3>
+              <p class="collection-desc">A charming collection with visual warmth and gifting appeal.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="container">
+        <div class="cta-box reveal">
+          <h2>Choose how you want to shop</h2>
+          <p>Buy from Amazon, discover on Meesho, or message directly on WhatsApp.</p>
+
+          <div class="cta-actions">
+            <a class="btn btn-amazon" href="https://www.amazon.in/l/27943762031?me=A1F0Z3K1ZIAHGU&tag=ShopReferral_ba55c3e5-eefc-471e-a3d4-95697395c7a3&ref=sf_seller_app_share_new_ls_srb" target="_blank" rel="noopener noreferrer">Shop on Amazon</a>
+            <a class="btn btn-meesho" href="https://www.meesho.com/Yooksin?_ms=3.0.1" target="_blank" rel="noopener noreferrer">Shop on Meesho</a>
+            <a class="btn btn-whatsapp" href="https://wa.me/918126772002?text=Hi%20I%20want%20to%20order%20from%20Yooksin" target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="mobile-sticky-bar">
+    <a class="mobile-sticky-btn" href="https://www.amazon.in/l/27943762031?me=A1F0Z3K1ZIAHGU&tag=ShopReferral_ba55c3e5-eefc-471e-a3d4-95697395c7a3&ref=sf_seller_app_share_new_ls_srb" target="_blank" rel="noopener noreferrer">
+      Shop Now
+    </a>
   </div>
-</div>
 
-<!-- PRODUCTS -->
-<div class="section">
-  <div class="title">Explore Collections</div>
+  <footer class="footer">
+    <div class="container">© Yooksin · Toys, gifting, and joyful little moments</div>
+  </footer>
 
-  <div class="grid">
-    <img src="ramayana.png">
-    <img src="krishna.png">
-  </div>
-</div>
+  <script>
+    const header = document.getElementById('siteHeader');
+    const reveals = document.querySelectorAll('.reveal');
 
-<!-- WHY -->
-<div class="section">
-  <div class="title">Why Yooksin?</div>
-  <div class="why">
-    • Unique handmade designs<br>
-    • Affordable pricing<br>
-    • Perfect gifting options
-  </div>
-</div>
+    function handleHeader() {
+      if (window.scrollY > 10) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    }
 
-<!-- SOCIAL -->
-<div class="section">
-  <div class="title">Stay Connected</div>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.14 });
 
-  <a class="btn instagram" href="https://www.instagram.com/yooksin_official?igsh=Zjk0MHlicjRncHVx" target="_blank">📸 Instagram</a>
-
-  <a class="btn facebook" href="https://www.facebook.com/share/1LAJm2YPnq/" target="_blank">👍 Facebook</a>
-</div>
-
-<!-- FOOTER -->
-<div class="footer">
-  Made with ❤️ by Yooksin
-</div>
-
+    reveals.forEach((el) => observer.observe(el));
+    window.addEventListener('scroll', handleHeader);
+    handleHeader();
+  </script>
 </body>
 </html>
